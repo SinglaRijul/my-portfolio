@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="portfolioTitle">Your Game Dev Portfolio</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased">
+    <!-- Navigation Bar -->
+    <nav class="fixed top-0 left-0 right-0 bg-gray-900 bg-opacity-90 backdrop-blur-sm z-50 shadow-lg rounded-b-lg">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <a href="#top" class="text-2xl font-extrabold text-white hover:text-purple-400 transition-colors duration-300 rounded-lg p-2">
+                <span class="text-purple-500">&lt;</span><span id="navBrandName">YourDev</span><span class="text-purple-500">/&gt;</span>
+            </a>
+            <div class="space-x-6">
+                <a href="#about" class="text-gray-300 hover:text-purple-400 transition-colors duration-300 text-lg font-medium">About</a>
+                <a href="#skills" class="text-gray-300 hover:text-purple-400 transition-colors duration-300 text-lg font-medium">Skills</a>
+                <a href="#projects" class="text-gray-300 hover:text-purple-400 transition-colors duration-300 text-lg font-medium">Projects</a>
+                <a href="#testimonials" class="text-gray-300 hover:text-purple-400 transition-colors duration-300 text-lg font-medium">Testimonials</a>
+                <a href="#contact" class="text-gray-300 hover:text-purple-400 transition-colors duration-300 text-lg font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="top" class="min-h-screen flex flex-col items-center justify-center pt-24 pb-12 px-4 sm:px-6 lg:px-8">
+        <!-- Hero Section -->
+        <header class="text-center mb-16 fade-in-section">
+            <h1 class="text-6xl sm:text-7xl lg:text-8xl font-extrabold text-white leading-tight mb-6 animate-pulse-fade">
+                Hello, I'm <span class="text-purple-500" id="heroName">Your Name</span>
+            </h1>
+            <p class="text-2xl sm:text-3xl text-gray-300 font-light mb-8" id="heroTagline">
+                Crafting immersive worlds and engaging gameplay experiences.
+            </p>
+            <a href="#projects" class="inline-block bg-purple-600 text-white text-xl font-bold px-10 py-4 rounded-full shadow-lg hover:bg-purple-700 hover:scale-105 transition-all duration-300 ease-in-out transform">
+                Explore My Work
+            </a>
+        </header>
+
+        <!-- About Me Section -->
+        <section id="about" class="w-full max-w-5xl bg-gray-800 p-8 sm:p-10 rounded-xl shadow-2xl mb-16 fade-in-section">
+            <h2 class="text-4xl font-bold text-white mb-8 border-b-4 border-purple-600 pb-3">About Me</h2>
+            <div id="aboutContent" class="text-lg text-gray-300 leading-relaxed">
+                <!-- About content will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="w-full max-w-5xl bg-gray-800 p-8 sm:p-10 rounded-xl shadow-2xl mb-16 fade-in-section">
+            <h2 class="text-4xl font-bold text-white mb-8 border-b-4 border-purple-600 pb-3">Skills</h2>
+            <div id="skillsContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Skills will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="w-full max-w-5xl bg-gray-800 p-8 sm:p-10 rounded-xl shadow-2xl mb-16 fade-in-section">
+            <h2 class="text-4xl font-bold text-white mb-8 border-b-4 border-purple-600 pb-3">My Projects</h2>
+            <div id="projectsContainer" class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <!-- Projects will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="w-full max-w-5xl bg-gray-800 p-8 sm:p-10 rounded-xl shadow-2xl mb-16 fade-in-section">
+            <h2 class="text-4xl font-bold text-white mb-8 border-b-4 border-purple-600 pb-3 text-center">What People Say</h2>
+            <div id="testimonialsContainer" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Testimonials will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="w-full max-w-5xl bg-gray-800 p-8 sm:p-10 rounded-xl shadow-2xl mb-16 text-center fade-in-section">
+            <h2 class="text-4xl font-bold text-white mb-8 border-b-4 border-purple-600 pb-3">Get in Touch</h2>
+            <p class="text-lg text-gray-300 mb-8" id="contactIntro">
+                I'm always open to new opportunities and collaborations. Feel free to connect with me!
+            </p>
+            <div id="contactLinks" class="flex flex-wrap justify-center gap-8">
+                <!-- Contact links will be loaded here by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-500 text-sm mt-8 pb-4">
+            &copy; 2025 <span id="footerName">Your Name</span>. All rights reserved.
+        </footer>
+    </div>
+
+    <script>
+        // Function to load data from JSON and populate the page
+        async function loadPortfolioData() {
+            try {
+                const response = await fetch('data.json');
+                const data = await response.json();
+
+                // Update basic info
+                document.getElementById('portfolioTitle').textContent = data.personalInfo.name + ' - Game Dev Portfolio';
+                document.getElementById('navBrandName').textContent = data.personalInfo.navBrandName || data.personalInfo.name.split(' ')[0] + 'Dev';
+                document.getElementById('heroName').textContent = data.personalInfo.name;
+                document.getElementById('heroTagline').textContent = data.personalInfo.tagline;
+                document.getElementById('aboutContent').innerHTML = data.aboutMe.map(p => `<p class="text-lg text-gray-300 leading-relaxed mb-4">${p}</p>`).join('');
+                document.getElementById('footerName').textContent = data.personalInfo.name;
+
+                // Populate Skills
+                const skillsContainer = document.getElementById('skillsContainer');
+                skillsContainer.innerHTML = ''; // Clear existing content
+                data.skills.forEach(category => {
+                    const skillDiv = document.createElement('div');
+                    skillDiv.className = 'bg-gray-700 p-6 rounded-lg shadow-md';
+                    const skillList = category.items.map(item => `<li class="mb-2">${item}</li>`).join('');
+                    skillDiv.innerHTML = `
+                        <h3 class="text-2xl font-semibold text-white mb-4 flex items-center">
+                            <svg class="w-7 h-7 mr-3 text-purple-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="${category.iconPath}" clip-rule="evenodd"></path></svg>
+                            ${category.name}
+                        </h3>
+                        <ul class="list-disc list-inside text-gray-300 text-lg">
+                            ${skillList}
+                        </ul>
+                    `;
+                    skillsContainer.appendChild(skillDiv);
+                });
+
+                // Populate Projects
+                const projectsContainer = document.getElementById('projectsContainer');
+                projectsContainer.innerHTML = ''; // Clear existing content
+                data.projects.forEach(project => {
+                    const projectDiv = document.createElement('div');
+                    projectDiv.className = 'bg-gray-700 p-6 rounded-lg shadow-md transform hover:scale-102 hover:shadow-xl transition-all duration-300 ease-in-out';
+                    const contributionsList = project.contributions.map(c => `<li>${c}</li>`).join('');
+                    projectDiv.innerHTML = `
+                        <div class="w-full h-52 bg-gray-900 rounded-md mb-5 border border-gray-600 flex items-center justify-center text-gray-400 text-sm">
+                            <img src="${project.imageUrl}" alt="${project.title} Thumbnail" class="w-full h-full object-cover rounded-md" onerror="this.onerror=null;this.src='https://placehold.co/600x350/2d3748/a0aec0?text=Image+Not+Found';">
+                        </div>
+                        <h3 class="text-2xl font-semibold text-white mb-3">${project.title}</h3>
+                        <div class="text-gray-300 text-base mb-4 space-y-2">
+                            <p><span class="font-semibold text-purple-300">Role:</span> ${project.role}</p>
+                            <p><span class="font-semibold text-purple-300">Engine(s):</span> ${project.engines}</p>
+                            <p><span class="font-semibold text-purple-300">Duration:</span> ${project.duration}</p>
+                            <p><span class="font-semibold text-purple-300">My Contributions:</span></p>
+                            <ul class="list-disc list-inside pl-4">
+                                ${contributionsList}
+                            </ul>
+                        </div>
+                        <a href="${project.projectUrl}" target="_blank" class="inline-block bg-purple-600 text-white font-bold px-6 py-3 rounded-md shadow-lg hover:bg-purple-700 hover:shadow-xl transition-all duration-300">View Project</a>
+                    `;
+                    projectsContainer.appendChild(projectDiv);
+                });
+
+                // Populate Testimonials
+                const testimonialsContainer = document.getElementById('testimonialsContainer');
+                testimonialsContainer.innerHTML = ''; // Clear existing content
+                data.testimonials.forEach(testimonial => {
+                    const testimonialDiv = document.createElement('div');
+                    testimonialDiv.className = 'bg-gray-700 p-6 rounded-lg shadow-md border-l-4 border-purple-500';
+                    testimonialDiv.innerHTML = `
+                        <p class="text-lg italic text-gray-300 mb-4">"${testimonial.quote}"</p>
+                        <p class="text-right text-purple-300 font-semibold">- ${testimonial.reviewer}, ${testimonial.title}</p>
+                    `;
+                    testimonialsContainer.appendChild(testimonialDiv);
+                });
+
+                // Populate Contact Links
+                const contactLinksContainer = document.getElementById('contactLinks');
+                contactLinksContainer.innerHTML = ''; // Clear existing content
+                document.getElementById('contactIntro').textContent = data.contact.introText;
+                data.contact.links.forEach(link => {
+                    const contactLink = document.createElement('a');
+                    contactLink.href = link.url;
+                    contactLink.target = "_blank";
+                    contactLink.className = "flex flex-col items-center text-purple-400 hover:text-purple-500 transition-colors duration-300 text-lg group";
+                    contactLink.innerHTML = `
+                        <svg class="w-10 h-10 mb-2 group-hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="${link.iconPath}"></path></svg>
+                        <span class="font-semibold">${link.text}</span>
+                    `;
+                    contactLinksContainer.appendChild(contactLink);
+                });
+
+                // Initialize scroll-reveal animations after content is loaded
+                initScrollReveal();
+
+            } catch (error) {
+                console.error('Error loading portfolio data:', error);
+                // Display a fallback message or handle the error gracefully
+                document.body.innerHTML = '<div class="min-h-screen flex items-center justify-center text-red-500 text-xl">Failed to load portfolio data. Please check data.json.</div>';
+            }
+        }
+
+        // Intersection Observer for scroll-reveal animations
+        function initScrollReveal() {
+            const sections = document.querySelectorAll('.fade-in-section');
+
+            const observerOptions = {
+                root: null, // viewport
+                rootMargin: '0px',
+                threshold: 0.1 // 10% of the section must be visible
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('is-visible');
+                        observer.unobserve(entry.target); // Stop observing once visible
+                    }
+                });
+            }, observerOptions);
+
+            sections.forEach(section => {
+                observer.observe(section);
+            });
+        }
+
+        // Load data when the DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', loadPortfolioData);
+
+        // Smooth scrolling for navigation links (remains the same)
+        document.querySelectorAll('nav a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

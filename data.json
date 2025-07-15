@@ -1,0 +1,130 @@
+{
+  "personalInfo": {
+    "name": "Your Awesome Name",
+    "navBrandName": "AwesomeDev",
+    "tagline": "Crafting immersive worlds and engaging gameplay experiences."
+  },
+  "aboutMe": [
+    "Hello! I'm Your Awesome Name, a dedicated game developer with a passion for creating immersive and engaging interactive experiences. I specialize in Unity/Unreal Engine development, C++, C#, game design, level design, and UI/UX.",
+    "My journey into game development began with modding classic games, which quickly evolved into a deep dive into engine programming and game design principles. I love bringing ideas to life, solving complex challenges, and collaborating with creative minds.",
+    "When I'm not coding, you can find me playing indie games, sketching new character concepts, or learning about the latest advancements in real-time rendering. I'm always eager to learn and grow, pushing the boundaries of what's possible in game development."
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "iconPath": "M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 01-1.265.633l-4-12a1 1 0 01.633-1.265l4-12a1 1 0 011.265-.633l4 12zM7.003 4.075L4.47 11.003l2.533 6.928 2.533-6.928L7.003 4.075z",
+      "items": ["C#", "C++", "Python", "JavaScript", "GLSL/HLSL (Shaders)"]
+    },
+    {
+      "name": "Game Engines",
+      "iconPath": "M10 2a8 8 0 100 16 8 8 0 000-16zM5.3 8.3a1 1 0 011.4 0L10 11.586l3.3-3.286a1 1 0 111.4 1.414l-4 4a1 1 0 01-1.4 0l-4-4a1 1 0 010-1.414z",
+      "items": ["Unity", "Unreal Engine", "Godot", "Custom Engines"]
+    },
+    {
+      "name": "Tools & Software",
+      "iconPath": "M11.49 3.17c-.38-1.16-1.305-2.09-2.488-2.316-.38-.074-.78-.074-1.16 0-1.183.226-2.108 1.156-2.488 2.316-.38 1.16-.38 2.39 0 3.55 0 .004-.002.008-.002.012a1 1 0 00.627 1.265l4 12a1 1 0 001.265.633l4-12a1 1 0 00.633-1.265l-4-12a1 1 0 00-1.265-.633zM7.003 4.075L4.47 11.003l2.533 6.928 2.533-6.928L7.003 4.075z",
+      "items": ["Git/GitHub", "Blender", "Substance Painter", "Photoshop", "Visual Studio", "Jira/Trello"]
+    },
+    {
+      "name": "Game Design",
+      "iconPath": "M9.243 3.03a1 1 0 011.514 0l4 5a1 1 0 01-1.514 1.29L10 6.414 6.757 9.32a1 1 0 01-1.514-1.29l4-5zM10 13a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1z",
+      "items": ["Level Design", "System Design", "Prototyping", "Narrative Design", "UI/UX Design"]
+    },
+    {
+      "name": "Other Skills",
+      "iconPath": "M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l3 3a1 1 0 001.414-1.414L11 9.586V6z",
+      "items": ["Problem Solving", "Team Collaboration", "Debugging", "Performance Optimization", "Procedural Generation"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Cosmic Drift",
+      "imageUrl": "https://placehold.co/600x350/2d3748/a0aec0?text=Cosmic+Drift+Image",
+      "projectUrl": "https://github.com/yourusername/cosmic-drift",
+      "role": "Lead Gameplay Programmer",
+      "engines": "Unity 2023.x",
+      "duration": "8 Weeks, Full-time",
+      "contributions": [
+        "Developed a robust space combat system with dynamic enemy AI.",
+        "Implemented a modular ship customization system for player progression.",
+        "Optimized rendering pipeline for smooth performance on various hardware."
+      ]
+    },
+    {
+      "title": "Echoes of the Forgotten",
+      "imageUrl": "https://placehold.co/600x350/2d3748/a0aec0?text=Echoes+Image",
+      "projectUrl": "https://youritch.itch.io/echoes-forgotten",
+      "role": "Technical Artist & Level Designer",
+      "engines": "Unreal Engine 5",
+      "duration": "4 Months, Part-time",
+      "contributions": [
+        "Created custom post-processing effects and atmospheric shaders.",
+        "Designed and sculpted intricate dungeon levels, focusing on environmental storytelling.",
+        "Developed a dynamic lighting system that reacts to player actions."
+      ]
+    },
+    {
+      "title": "Pixel Dungeon Crawler (Game Jam)",
+      "imageUrl": "https://placehold.co/600x350/2d3748/a0aec0?text=Pixel+Dungeon+Image",
+      "projectUrl": "https://github.com/yourusername/pixel-dungeon-crawler",
+      "role": "Game Designer & Prototyper",
+      "engines": "Godot 4",
+      "duration": "Game Jam (48 hours)",
+      "contributions": [
+        "Conceptualized and rapidly prototyped core rogue-like mechanics.",
+        "Implemented procedural dungeon generation algorithms.",
+        "Balanced character stats and enemy encounters for challenging gameplay."
+      ]
+    },
+    {
+      "title": "AI Arena",
+      "imageUrl": "https://placehold.co/600x350/2d3748/a0aec0?text=AI+Arena+Image",
+      "projectUrl": "https://github.com/yourusername/ai-arena",
+      "role": "AI Programmer",
+      "engines": "Custom C++ Engine",
+      "duration": "6 Weeks",
+      "contributions": [
+        "Developed a sophisticated behavior tree system for various enemy archetypes.",
+        "Implemented A* pathfinding with dynamic obstacle avoidance.",
+        "Integrated machine learning models for adaptive enemy difficulty."
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Your Awesome Name is an incredibly talented and dedicated game developer. Their ability to tackle complex technical challenges while maintaining a strong focus on player experience is truly impressive. A valuable asset to any team!",
+      "reviewer": "Jane Doe",
+      "title": "Senior Game Producer at GameCo"
+    },
+    {
+      "quote": "Working with Your Awesome Name was a pleasure. Their contributions to Cosmic Drift were crucial, especially in optimizing the rendering pipeline. They are a great communicator and a highly skilled programmer.",
+      "reviewer": "John Smith",
+      "title": "Lead Engineer at IndieDev Studio"
+    }
+  ],
+  "contact": {
+    "introText": "I'm always open to new opportunities and collaborations. Feel free to connect with me!",
+    "links": [
+      {
+        "text": "Email Me",
+        "url": "mailto:your.email@example.com",
+        "iconPath": "M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884zM18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+      },
+      {
+        "text": "LinkedIn",
+        "url": "https://linkedin.com/in/yourprofile",
+        "iconPath": "M16.3 14.7c.3-.3.3-.8 0-1.1l-2.4-2.4c-.3-.3-.8-.3-1.1 0s-.3.8 0 1.1l2.4 2.4c.3.3.8.3 1.1 0zM10 18a8 8 0 100-16 8 8 0 000 16zM8 9a2 2 0 100-4 2 2 0 000 4z"
+      },
+      {
+        "text": "GitHub",
+        "url": "https://github.com/yourusername",
+        "iconPath": "M10 0C4.477 0 0 4.477 0 10c0 4.418 2.865 8.167 6.839 9.489.5.092.682-.217.682-.483 0-.237-.008-.867-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.455-1.157-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.004.07 1.532 1.03 1.532 1.03.89 1.527 2.341 1.085 2.903.829.091-.643.348-1.085.633-1.336-2.22-.252-4.555-1.11-4.555-4.943 0-1.09.39-1.984 1.03-2.682-.104-.252-.448-1.27.098-2.65 0 0 .84-.268 2.75 1.025A9.564 9.564 0 0110 4.394c.85.006 1.7.11 2.5.324 1.91-1.293 2.75-1.025 2.75-1.025.546 1.38.202 2.398.098 2.65.64.698 1.03 1.592 1.03 2.682 0 3.842-2.339 4.686-4.566 4.935.359.309.678.92.678 1.855 0 1.336-.012 2.415-.012 2.74 0 .269.18.58.688.48C17.136 18.165 20 14.418 20 10c0-5.523-4.477-10-10-10z"
+      },
+      {
+        "text": "Itch.io",
+        "url": "https://yourusername.itch.io/",
+        "iconPath": "M10 0C4.477 0 0 4.477 0 10c0 4.418 2.865 8.167 6.839 9.489.5.092.682-.217.682-.483 0-.237-.008-.867-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.455-1.157-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.004.07 1.532 1.03 1.532 1.03.89 1.527 2.341 1.085 2.903.829.091-.643.348-1.085.633-1.336-2.22-.252-4.555-1.11-4.555-4.943 0-1.09.39-1.984 1.03-2.682-.104-.252-.448-1.27.098-2.65 0 0 .84-.268 2.75 1.025A9.564 9.564 0 0110 4.394c.85.006 1.7.11 2.5.324 1.91-1.293 2.75-1.025 2.75-1.025.546 1.38.202 2.398.098 2.65.64.698 1.03 1.592 1.03 2.682 0 3.842-2.339 4.686-4.566 4.935.359.309.678.92.678 1.855 0 1.336-.012 2.415-.012 2.74 0 .269.18.58.688.48C17.136 18.165 20 14.418 20 10c0-5.523-4.477-10-10-10z"
+      }
+    ]
+  }
+}
