@@ -1,73 +1,71 @@
 {
   "personalInfo": {
-    "name": "Your Awesome Name",
-    "navBrandName": "AwesomeDev",
+    "name": "Rijul Singla",
+    "navBrandName": "SaladCrunchProductions",
     "tagline": "Crafting immersive worlds and engaging gameplay experiences."
   },
   "aboutMe": [
-    "Hello! I'm Your Awesome Name, a dedicated game developer with a passion for creating immersive and engaging interactive experiences. I specialize in Unity/Unreal Engine development, C++, C#, game design, level design, and UI/UX.",
+    "Hello! I'm Rijul Singla, a budding game developer with a passion for creating games.I specialize in Unity Engine development, C++, C#, game design, level design.",
     "My journey into game development began with modding classic games, which quickly evolved into a deep dive into engine programming and game design principles. I love bringing ideas to life, solving complex challenges, and collaborating with creative minds.",
-    "When I'm not coding, you can find me playing indie games, sketching new character concepts, or learning about the latest advancements in real-time rendering. I'm always eager to learn and grow, pushing the boundaries of what's possible in game development."
+    "When I'm not coding, you can find me playing games, streaming on youtube/twicth or listening to new music.I'm always eager to learn and grow, pushing the boundaries of what's possible in game development."
   ],
   "skills": [
     {
       "name": "Programming Languages",
       "iconPath": "M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 01-1.265.633l-4-12a1 1 0 01.633-1.265l4-12a1 1 0 011.265-.633l4 12zM7.003 4.075L4.47 11.003l2.533 6.928 2.533-6.928L7.003 4.075z",
-      "items": ["C#", "C++", "Python", "JavaScript", "GLSL/HLSL (Shaders)"]
+      "items": ["C#", "C++", "Python", "JavaScript(Beginner)"]
     },
     {
       "name": "Game Engines",
       "iconPath": "M10 2a8 8 0 100 16 8 8 0 000-16zM5.3 8.3a1 1 0 011.4 0L10 11.586l3.3-3.286a1 1 0 111.4 1.414l-4 4a1 1 0 01-1.4 0l-4-4a1 1 0 010-1.414z",
-      "items": ["Unity", "Unreal Engine", "Godot", "Custom Engines"]
+      "items": ["Unity", "Godot"]
     },
     {
       "name": "Tools & Software",
       "iconPath": "M11.49 3.17c-.38-1.16-1.305-2.09-2.488-2.316-.38-.074-.78-.074-1.16 0-1.183.226-2.108 1.156-2.488 2.316-.38 1.16-.38 2.39 0 3.55 0 .004-.002.008-.002.012a1 1 0 00.627 1.265l4 12a1 1 0 001.265.633l4-12a1 1 0 00.633-1.265l-4-12a1 1 0 00-1.265-.633zM7.003 4.075L4.47 11.003l2.533 6.928 2.533-6.928L7.003 4.075z",
-      "items": ["Git/GitHub", "Blender", "Substance Painter", "Photoshop", "Visual Studio", "Jira/Trello"]
+      "items": ["Git/GitHub", "Asperite", "Visual Studio", "Jira"]
     },
-    {
-      "name": "Game Design",
-      "iconPath": "M9.243 3.03a1 1 0 011.514 0l4 5a1 1 0 01-1.514 1.29L10 6.414 6.757 9.32a1 1 0 01-1.514-1.29l4-5zM10 13a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1z",
-      "items": ["Level Design", "System Design", "Prototyping", "Narrative Design", "UI/UX Design"]
-    },
+    // {
+    //   "name": "Game Design",
+    //   "iconPath": "M9.243 3.03a1 1 0 011.514 0l4 5a1 1 0 01-1.514 1.29L10 6.414 6.757 9.32a1 1 0 01-1.514-1.29l4-5zM10 13a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1z",
+    //   "items": ["Level Design", "System Design", "Prototyping", "Narrative Design", "UI/UX Design"]
+    // },
     {
       "name": "Other Skills",
       "iconPath": "M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l3 3a1 1 0 001.414-1.414L11 9.586V6z",
-      "items": ["Problem Solving", "Team Collaboration", "Debugging", "Performance Optimization", "Procedural Generation"]
+      "items": ["Problem Solving", "Team Collaboration", "Debugging", "Creative Thinking", "Procedural Generation"]
     }
   ],
   "projects": [
     {
-      "title": "Cosmic Drift",
+      "title": "Pringles:A Potato Revolution",
       "imageUrl": "https://placehold.co/600x350/2d3748/a0aec0?text=Cosmic+Drift+Image",
-      "projectUrl": "https://github.com/yourusername/cosmic-drift",
-      "role": "Lead Gameplay Programmer",
-      "engines": "Unity 2023.x",
-      "duration": "8 Weeks, Full-time",
+      "projectUrl": "https://github.com/SinglaRijul/Pringles",
+      "role": "Developer and Programmer",
+      "engines": "Unity 2021.x",
+      "duration": "10 Weeks, Full-time",
       "contributions": [
-        "Developed a robust space combat system with dynamic enemy AI.",
-        "Implemented a modular ship customization system for player progression.",
-        "Optimized rendering pipeline for smooth performance on various hardware."
+        "This was my first ever proper solo project - where I developed this top-down endless runner game which is about a potato escaping from what's seemingly a prison and essentially a revolution that is about to change the history",
+        "This game has completely original lore written by me."
       ]
     },
     {
-      "title": "Echoes of the Forgotten",
+      "title": "Time Strider (Game Jam)",
       "imageUrl": "https://placehold.co/600x350/2d3748/a0aec0?text=Echoes+Image",
-      "projectUrl": "https://youritch.itch.io/echoes-forgotten",
-      "role": "Technical Artist & Level Designer",
-      "engines": "Unreal Engine 5",
-      "duration": "4 Months, Part-time",
+      "projectUrl": "https://rijul-singla.itch.io/time-strider",
+      "role": "Lead Programmer and Game Design",
+      "engines": "Unity ",
+      "duration": "48 hours",
       "contributions": [
-        "Created custom post-processing effects and atmospheric shaders.",
-        "Designed and sculpted intricate dungeon levels, focusing on environmental storytelling.",
-        "Developed a dynamic lighting system that reacts to player actions."
+        "This game was made as a part of Micro Jam 034: Defense by me and chasingxstars",
+        "Programmed and Designed a tower defense game as you race against time"
       ]
     },
     {
-      "title": "Pixel Dungeon Crawler (Game Jam)",
+      "title": "Pigeon Patrol (Game Jam)",
       "imageUrl": "https://placehold.co/600x350/2d3748/a0aec0?text=Pixel+Dungeon+Image",
       "projectUrl": "https://github.com/yourusername/pixel-dungeon-crawler",
-      "role": "Game Designer & Prototyper",
+      "role": "Lead Programmer and Game Design",
       "engines": "Godot 4",
       "duration": "Game Jam (48 hours)",
       "contributions": [
@@ -77,10 +75,10 @@
       ]
     },
     {
-      "title": "AI Arena",
+      "title": "Shaolin Slice (Game Jam)",
       "imageUrl": "https://placehold.co/600x350/2d3748/a0aec0?text=AI+Arena+Image",
-      "projectUrl": "https://github.com/yourusername/ai-arena",
-      "role": "AI Programmer",
+      "projectUrl": "https://rijul-singla.itch.io/shaolin-slice",
+      "role": "Lead Programmer and Game Design",
       "engines": "Custom C++ Engine",
       "duration": "6 Weeks",
       "contributions": [
@@ -92,12 +90,12 @@
   ],
   "testimonials": [
     {
-      "quote": "Your Awesome Name is an incredibly talented and dedicated game developer. Their ability to tackle complex technical challenges while maintaining a strong focus on player experience is truly impressive. A valuable asset to any team!",
+      "quote": "Rijul Singla is an incredibly talented and dedicated game developer. Their ability to tackle complex technical challenges while maintaining a strong focus on player experience is truly impressive. A valuable asset to any team!",
       "reviewer": "Jane Doe",
       "title": "Senior Game Producer at GameCo"
     },
     {
-      "quote": "Working with Your Awesome Name was a pleasure. Their contributions to Cosmic Drift were crucial, especially in optimizing the rendering pipeline. They are a great communicator and a highly skilled programmer.",
+      "quote": "Working with Rijul Singla was a pleasure. Their contributions to Cosmic Drift were crucial, especially in optimizing the rendering pipeline. They are a great communicator and a highly skilled programmer.",
       "reviewer": "John Smith",
       "title": "Lead Engineer at IndieDev Studio"
     }
