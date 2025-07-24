@@ -5,15 +5,15 @@
     "tagline": "Crafting immersive worlds and engaging gameplay experiences."
   },
   "aboutMe": [
-    "Hello! I'm Rijul Singla, a budding game developer with a passion for creating games.I specialize in Unity Engine development, C++, C#, game design, level design.",
-    "My journey into game development began with modding classic games, which quickly evolved into a deep dive into engine programming and game design principles. I love bringing ideas to life, solving complex challenges, and collaborating with creative minds.",
-    "When I'm not coding, you can find me playing games, streaming on youtube/twicth or listening to new music.I'm always eager to learn and grow, pushing the boundaries of what's possible in game development."
+    "Hello! I'm Rijul Singla, a passionate and driven game developer dedicated to crafting engaging interactive experiences. I specialize in Unity Engine development, C++, C#, game design, and level design.",
+    "My journey into game development began with modding classic games, a path that quickly evolved into a deep dive into engine programming and core game design principles. I thrive on bringing innovative ideas to life, solving complex technical challenges, and collaborating with creative minds.",
+    "When I'm not immersed in development, you can find me exploring new game worlds, streaming on YouTube/Twitch, or discovering new music. I am continuously eager to learn and grow, always pushing the boundaries of what's possible in game development."
   ],
   "skills": [
     {
       "name": "Programming Languages",
       "iconPath": "M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 01-1.265.633l-4-12a1 1 0 01.633-1.265l4-12a1 1 0 011.265-.633l4 12zM7.003 4.075L4.47 11.003l2.533 6.928 2.533-6.928L7.003 4.075z",
-      "items": ["C#", "C++", "Python", "JavaScript(Beginner)"]
+      "items": ["C#", "C++", "Python", "JavaScript (Beginner)"]
     },
     {
       "name": "Game Engines",
@@ -23,13 +23,13 @@
     {
       "name": "Tools & Software",
       "iconPath": "M11.49 3.17c-.38-1.16-1.305-2.09-2.488-2.316-.38-.074-.78-.074-1.16 0-1.183.226-2.108 1.156-2.488 2.316-.38 1.16-.38 2.39 0 3.55 0 .004-.002.008-.002.012a1 1 0 00.627 1.265l4 12a1 1 0 001.265.633l4-12a1 1 0 00.633-1.265l-4-12a1 1 0 00-1.265-.633zM7.003 4.075L4.47 11.003l2.533 6.928 2.533-6.928L7.003 4.075z",
-      "items": ["Git/GitHub", "Asperite", "Visual Studio", "Jira"]
+      "items": ["Git/GitHub", "Aseprite", "Visual Studio", "Jira"]
     },
-    // {
-    //   "name": "Game Design",
-    //   "iconPath": "M9.243 3.03a1 1 0 011.514 0l4 5a1 1 0 01-1.514 1.29L10 6.414 6.757 9.32a1 1 0 01-1.514-1.29l4-5zM10 13a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1z",
-    //   "items": ["Level Design", "System Design", "Prototyping", "Narrative Design", "UI/UX Design"]
-    // },
+    {
+      "name": "Game Design",
+      "iconPath": "M9.243 3.03a1 1 0 011.514 0l4 5a1 1 0 01-1.514 1.29L10 6.414 6.757 9.32a1 1 0 01-1.514-1.29l4-5zM10 13a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1z",
+      "items": ["Level Design", "System Design", "Prototyping", "Narrative Design", "UI/UX Design"]
+    },
     {
       "name": "Other Skills",
       "iconPath": "M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l3 3a1 1 0 001.414-1.414L11 9.586V6z",
@@ -38,66 +38,56 @@
   ],
   "projects": [
     {
-      "title": "Pringles:A Potato Revolution",
-      "imageUrl": "https://placehold.co/600x350/2d3748/a0aec0?text=Cosmic+Drift+Image",
-      "projectUrl": "https://github.com/SinglaRijul/Pringles",
-      "role": "Developer and Programmer",
+      "title": "Pringles: A Potato Revolution",
+      "imageUrl": "images/pringles.jpg",
+      "projectUrl": "https://rijul-singla.itch.io/pringles",
+      "role": "Solo Developer and Programmer",
       "engines": "Unity 2021.x",
-      "duration": "10 Weeks, Full-time",
+      "duration": "10 Weeks",
       "contributions": [
-        "This was my first ever proper solo project - where I developed this top-down endless runner game which is about a potato escaping from what's seemingly a prison and essentially a revolution that is about to change the history",
-        "This game has completely original lore written by me."
+        "Designed and developed all aspects of this top-down endless runner, my first solo project, centered on a potato's escape and a revolution.",
+        "Crafted the game's unique and engaging original lore and backstory.",
+        "Implemented core gameplay mechanics for movement, obstacles, and progression across Windows and Linux platforms."
       ]
     },
     {
       "title": "Time Strider (Game Jam)",
-      "imageUrl": "https://placehold.co/600x350/2d3748/a0aec0?text=Echoes+Image",
+      "imageUrl": "images/time-strider.jpg",
       "projectUrl": "https://rijul-singla.itch.io/time-strider",
-      "role": "Lead Programmer and Game Design",
-      "engines": "Unity ",
-      "duration": "48 hours",
+      "role": "Lead Programmer and Game Designer",
+      "engines": "Unity",
+      "duration": "48 hours (Micro Jam 034)",
       "contributions": [
-        "This game was made as a part of Micro Jam 034: Defense by me and chasingxstars",
-        "Programmed and Designed a tower defense game as you race against time"
+        "Led programming and game design for the core tower defense mechanics, including wave management and time-based challenges.",
+        "Implemented enemy AI (clock-themed) and crystal-powered defense systems within a tight game jam deadline.",
+        "Collaborated with 'chasingxstars' on this project for Micro Jam 034: Defense."
       ]
     },
     {
       "title": "Pigeon Patrol (Game Jam)",
-      "imageUrl": "https://placehold.co/600x350/2d3748/a0aec0?text=Pixel+Dungeon+Image",
-      "projectUrl": "https://github.com/yourusername/pixel-dungeon-crawler",
-      "role": "Lead Programmer and Game Design",
-      "engines": "Godot 4",
-      "duration": "Game Jam (48 hours)",
+      "imageUrl": "images/pigeon-patrol.jpg",
+      "projectUrl": "https://sodagummy.itch.io/pigeon-patrol",
+      "role": "Lead Programmer and Game Designer",
+      "engines": "Unity",
+      "duration": "48 hours (Game Jam)",
       "contributions": [
-        "Conceptualized and rapidly prototyped core rogue-like mechanics.",
-        "Implemented procedural dungeon generation algorithms.",
-        "Balanced character stats and enemy encounters for challenging gameplay."
+        "Led programming and game design for the unique pigeon-shooing and balloon-popping action mechanics.",
+        "Implemented 360-degree camera rotation, zoom functionality, and responsive WASD/mouse controls.",
+        "Contributed to the overall action-game design in a collaborative game jam setting."
       ]
     },
     {
       "title": "Shaolin Slice (Game Jam)",
-      "imageUrl": "https://placehold.co/600x350/2d3748/a0aec0?text=AI+Arena+Image",
+      "imageUrl": "images/shaolin-slice.jpg",
       "projectUrl": "https://rijul-singla.itch.io/shaolin-slice",
-      "role": "Lead Programmer and Game Design",
-      "engines": "Custom C++ Engine",
-      "duration": "6 Weeks",
+      "role": "Lead Programmer and Game Designer",
+      "engines": "Unity",
+      "duration": "6 Weeks (Game Jam)",
       "contributions": [
-        "Developed a sophisticated behavior tree system for various enemy archetypes.",
-        "Implemented A* pathfinding with dynamic obstacle avoidance.",
-        "Integrated machine learning models for adaptive enemy difficulty."
+        "Programmed and designed the core rhythm-based slicing mechanics, synchronized with musical beats.",
+        "Ensured historical accuracy in monk movements, stances, and slicing animations.",
+        "Developed diverse slicing challenges, from bamboo cutting to battlefield combat scenarios, reflecting medieval China."
       ]
-    }
-  ],
-  "testimonials": [
-    {
-      "quote": "Rijul Singla is an incredibly talented and dedicated game developer. Their ability to tackle complex technical challenges while maintaining a strong focus on player experience is truly impressive. A valuable asset to any team!",
-      "reviewer": "Jane Doe",
-      "title": "Senior Game Producer at GameCo"
-    },
-    {
-      "quote": "Working with Rijul Singla was a pleasure. Their contributions to Cosmic Drift were crucial, especially in optimizing the rendering pipeline. They are a great communicator and a highly skilled programmer.",
-      "reviewer": "John Smith",
-      "title": "Lead Engineer at IndieDev Studio"
     }
   ],
   "contact": {
@@ -115,12 +105,12 @@
       },
       {
         "text": "GitHub",
-        "url": "https://github.com/yourusername",
+        "url": "https://github.com/SinglaRijul",
         "iconPath": "M10 0C4.477 0 0 4.477 0 10c0 4.418 2.865 8.167 6.839 9.489.5.092.682-.217.682-.483 0-.237-.008-.867-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.455-1.157-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.004.07 1.532 1.03 1.532 1.03.89 1.527 2.341 1.085 2.903.829.091-.643.348-1.085.633-1.336-2.22-.252-4.555-1.11-4.555-4.943 0-1.09.39-1.984 1.03-2.682-.104-.252-.448-1.27.098-2.65 0 0 .84-.268 2.75 1.025A9.564 9.564 0 0110 4.394c.85.006 1.7.11 2.5.324 1.91-1.293 2.75-1.025 2.75-1.025.546 1.38.202 2.398.098 2.65.64.698 1.03 1.592 1.03 2.682 0 3.842-2.339 4.686-4.566 4.935.359.309.678.92.678 1.855 0 1.336-.012 2.415-.012 2.74 0 .269.18.58.688.48C17.136 18.165 20 14.418 20 10c0-5.523-4.477-10-10-10z"
       },
       {
         "text": "Itch.io",
-        "url": "https://yourusername.itch.io/",
+        "url": "https://rijul-singla.itch.io/",
         "iconPath": "M10 0C4.477 0 0 4.477 0 10c0 4.418 2.865 8.167 6.839 9.489.5.092.682-.217.682-.483 0-.237-.008-.867-.013-1.7-2.782.604-3.369-1.34-3.369-1.34-.455-1.157-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.004.07 1.532 1.03 1.532 1.03.89 1.527 2.341 1.085 2.903.829.091-.643.348-1.085.633-1.336-2.22-.252-4.555-1.11-4.555-4.943 0-1.09.39-1.984 1.03-2.682-.104-.252-.448-1.27.098-2.65 0 0 .84-.268 2.75 1.025A9.564 9.564 0 0110 4.394c.85.006 1.7.11 2.5.324 1.91-1.293 2.75-1.025 2.75-1.025.546 1.38.202 2.398.098 2.65.64.698 1.03 1.592 1.03 2.682 0 3.842-2.339 4.686-4.566 4.935.359.309.678.92.678 1.855 0 1.336-.012 2.415-.012 2.74 0 .269.18.58.688.48C17.136 18.165 20 14.418 20 10c0-5.523-4.477-10-10-10z"
       }
     ]
