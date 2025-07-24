@@ -13,17 +13,16 @@
 </head>
 <body class="antialiased">
     <!-- Navigation Bar -->
-    <nav class="fixed top-0 left-0 right-0 bg-slate-900 bg-opacity-90 backdrop-blur-sm z-50 shadow-lg rounded-b-lg">
+    <nav class="fixed top-0 left-0 right-0 bg-stone-900 bg-opacity-90 backdrop-blur-sm z-50 shadow-lg rounded-b-lg">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
-            <a href="#top" class="text-2xl font-extrabold text-white hover:text-teal-400 transition-colors duration-300 rounded-lg p-2">
-                <span class="text-teal-400">&lt;</span><span id="navBrandName">YourDev</span><span class="text-teal-400">/&gt;</span>
+            <a href="#top" class="text-2xl font-extrabold text-white hover:text-amber-400 transition-colors duration-300 rounded-lg p-2">
+                <span class="text-amber-400">&lt;</span><span id="navBrandName">YourDev</span><span class="text-amber-400">/&gt;</span>
             </a>
             <div class="space-x-6">
-                <a href="#about" class="text-slate-300 hover:text-teal-400 transition-colors duration-300 text-lg font-medium">About</a>
-                <a href="#skills" class="text-slate-300 hover:text-teal-400 transition-colors duration-300 text-lg font-medium">Skills</a>
-                <a href="#projects" class="text-slate-300 hover:text-teal-400 transition-colors duration-300 text-lg font-medium">Projects</a>
-                <!-- Testimonials link removed -->
-                <a href="#contact" class="text-slate-300 hover:text-teal-400 transition-colors duration-300 text-lg font-medium">Contact</a>
+                <a href="#about" class="text-stone-300 hover:text-amber-400 transition-colors duration-300 text-lg font-medium">About</a>
+                <a href="#skills" class="text-stone-300 hover:text-amber-400 transition-colors duration-300 text-lg font-medium">Skills</a>
+                <a href="#projects" class="text-stone-300 hover:text-amber-400 transition-colors duration-300 text-lg font-medium">Projects</a>
+                <a href="#contact" class="text-stone-300 hover:text-amber-400 transition-colors duration-300 text-lg font-medium">Contact</a>
             </div>
         </div>
     </nav>
@@ -31,47 +30,52 @@
     <div id="top" class="min-h-screen flex flex-col items-center justify-center pt-24 pb-12 px-4 sm:px-6 lg:px-8">
         <!-- Hero Section -->
         <header class="text-center mb-16 fade-in-section">
-            <h1 class="text-6xl sm:text-7xl lg:text-8xl font-extrabold text-white leading-tight mb-6 animate-pulse-fade">
-                Hello, I'm <span class="text-teal-400" id="heroName">Your Name</span>
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6 animate-pulse-fade">
+                <span id="heroName">Your Name</span>, Game Developer
             </h1>
-            <p class="text-2xl sm:text-3xl text-slate-300 font-light mb-8" id="heroTagline">
+            <p class="text-xl sm:text-2xl text-stone-300 font-light mb-8" id="heroTagline">
                 Crafting immersive worlds and engaging gameplay experiences.
             </p>
-            <a href="#projects" class="inline-block bg-teal-600 text-white text-xl font-bold px-10 py-4 rounded-full shadow-lg hover:bg-teal-700 hover:scale-105 transition-all duration-300 ease-in-out transform">
+            <a href="#projects" class="inline-block bg-amber-600 text-white text-xl font-bold px-10 py-4 rounded-full shadow-lg hover:bg-amber-700 hover:scale-105 transition-all duration-300 ease-in-out transform">
                 Explore My Work
             </a>
         </header>
 
         <!-- About Me Section -->
-        <section id="about" class="w-full max-w-5xl bg-slate-900 bg-opacity-80 p-8 sm:p-10 rounded-xl shadow-2xl mb-16 fade-in-section">
-            <h2 class="text-4xl font-bold text-white mb-8 border-b-4 border-teal-500 pb-3">About Me</h2>
-            <div id="aboutContent" class="text-lg text-slate-300 leading-relaxed">
-                <!-- About content will be loaded here by JavaScript -->
+        <section id="about" class="w-full max-w-5xl bg-stone-900 bg-opacity-80 p-8 sm:p-10 rounded-xl shadow-2xl mb-16 fade-in-section">
+            <h2 class="text-4xl font-bold text-white mb-8 border-b-4 border-amber-500 pb-3">About Me</h2>
+            <div class="flex flex-col md:flex-row items-center md:items-start gap-8">
+                <div class="w-48 h-48 sm:w-64 sm:h-64 flex-shrink-0 rounded-full overflow-hidden shadow-lg border-4 border-amber-500 flex items-center justify-center">
+                    <img id="profilePhoto" src="images/profile-placeholder.jpg" alt="Profile Photo" class="w-full h-full object-cover" onerror="this.onerror=null;this.src='https://placehold.co/256x256/4a280e/fcd34d?text=Your+Photo';">
+                </div>
+                <div id="aboutContent" class="text-lg text-stone-300 leading-relaxed flex-grow">
+                    <!-- About content will be loaded here by JavaScript -->
+                </div>
             </div>
         </section>
 
         <!-- Skills Section -->
-        <section id="skills" class="w-full max-w-5xl bg-slate-900 bg-opacity-80 p-8 sm:p-10 rounded-xl shadow-2xl mb-16 fade-in-section">
-            <h2 class="text-4xl font-bold text-white mb-8 border-b-4 border-teal-500 pb-3">Skills</h2>
+        <section id="skills" class="w-full max-w-5xl bg-stone-900 bg-opacity-80 p-8 sm:p-10 rounded-xl shadow-2xl mb-16 fade-in-section">
+            <h2 class="text-4xl font-bold text-white mb-8 border-b-4 border-amber-500 pb-3">Skills</h2>
             <div id="skillsContainer" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Skills will be loaded here by JavaScript -->
             </div>
         </section>
 
         <!-- Projects Section -->
-        <section id="projects" class="w-full max-w-5xl bg-slate-900 bg-opacity-80 p-8 sm:p-10 rounded-xl shadow-2xl mb-16 fade-in-section">
-            <h2 class="text-4xl font-bold text-white mb-8 border-b-4 border-teal-500 pb-3">My Projects</h2>
+        <section id="projects" class="w-full max-w-5xl bg-stone-900 bg-opacity-80 p-8 sm:p-10 rounded-xl shadow-2xl mb-16 fade-in-section">
+            <h2 class="text-4xl font-bold text-white mb-8 border-b-4 border-amber-500 pb-3">My Projects</h2>
             <div id="projectsContainer" class="grid grid-cols-1 md:grid-cols-2 gap-10">
                 <!-- Projects will be loaded here by JavaScript -->
             </div>
         </section>
-
-        <!-- Testimonials Section has been completely removed from HTML -->
+        
+        <!-- Testimonials Section has been completely removed from HTML and JS -->
         
         <!-- Contact Section -->
-        <section id="contact" class="w-full max-w-5xl bg-slate-900 bg-opacity-80 p-8 sm:p-10 rounded-xl shadow-2xl mb-16 text-center fade-in-section">
-            <h2 class="text-4xl font-bold text-white mb-8 border-b-4 border-teal-500 pb-3">Get in Touch</h2>
-            <p class="text-lg text-slate-300 mb-8" id="contactIntro">
+        <section id="contact" class="w-full max-w-5xl bg-stone-900 bg-opacity-80 p-8 sm:p-10 rounded-xl shadow-2xl mb-16 text-center fade-in-section">
+            <h2 class="text-4xl font-bold text-white mb-8 border-b-4 border-amber-500 pb-3">Get in Touch</h2>
+            <p class="text-lg text-stone-300 mb-8" id="contactIntro">
                 I'm always open to new opportunities and collaborations. Feel free to connect with me!
             </p>
             <div id="contactLinks" class="flex flex-wrap justify-center gap-8">
@@ -80,7 +84,7 @@
         </section>
 
         <!-- Footer -->
-        <footer class="text-center text-slate-500 text-sm mt-8 pb-4">
+        <footer class="text-center text-stone-500 text-sm mt-8 pb-4">
             &copy; 2025 <span id="footerName">Your Name</span>. All rights reserved.
         </footer>
     </div>
@@ -101,22 +105,27 @@
                 document.getElementById('navBrandName').textContent = data.personalInfo.navBrandName || data.personalInfo.name.split(' ')[0] + 'Dev';
                 document.getElementById('heroName').textContent = data.personalInfo.name;
                 document.getElementById('heroTagline').textContent = data.personalInfo.tagline;
-                document.getElementById('aboutContent').innerHTML = data.aboutMe.map(p => `<p class="text-lg text-slate-300 leading-relaxed mb-4">${p}</p>`).join('');
                 document.getElementById('footerName').textContent = data.personalInfo.name;
+
+                // Populate About Me
+                document.getElementById('aboutContent').innerHTML = data.aboutMe.map(p => `<p class="text-lg text-stone-300 leading-relaxed mb-4">${p}</p>`).join('');
+                if (data.personalInfo.profileImageUrl) {
+                    document.getElementById('profilePhoto').src = data.personalInfo.profileImageUrl;
+                }
 
                 // Populate Skills
                 const skillsContainer = document.getElementById('skillsContainer');
                 skillsContainer.innerHTML = ''; // Clear existing content
                 data.skills.forEach(category => {
                     const skillDiv = document.createElement('div');
-                    skillDiv.className = 'bg-slate-800 bg-opacity-80 p-6 rounded-lg shadow-md';
+                    skillDiv.className = 'bg-stone-800 bg-opacity-80 p-6 rounded-lg shadow-md';
                     const skillList = category.items.map(item => `<li class="mb-2">${item}</li>`).join('');
                     skillDiv.innerHTML = `
                         <h3 class="text-2xl font-semibold text-white mb-4 flex items-center">
-                            <svg class="w-7 h-7 mr-3 text-teal-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="${category.iconPath}" clip-rule="evenodd"></path></svg>
+                            <svg class="w-7 h-7 mr-3 text-amber-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="${category.iconPath}" clip-rule="evenodd"></path></svg>
                             ${category.name}
                         </h3>
-                        <ul class="list-disc list-inside text-slate-300 text-lg">
+                        <ul class="list-disc list-inside text-stone-300 text-lg">
                             ${skillList}
                         </ul>
                     `;
@@ -128,23 +137,23 @@
                 projectsContainer.innerHTML = ''; // Clear existing content
                 data.projects.forEach(project => {
                     const projectDiv = document.createElement('div');
-                    projectDiv.className = 'bg-slate-800 bg-opacity-80 p-6 rounded-lg shadow-md transform hover:scale-102 hover:shadow-xl transition-all duration-300 ease-in-out';
+                    projectDiv.className = 'bg-stone-800 bg-opacity-80 p-6 rounded-lg shadow-md transform hover:scale-102 hover:shadow-xl transition-all duration-300 ease-in-out';
                     const contributionsList = project.contributions.map(c => `<li>${c}</li>`).join('');
                     projectDiv.innerHTML = `
-                        <div class="w-full h-52 bg-slate-950 rounded-md mb-5 border border-slate-600 flex items-center justify-center text-slate-400 text-sm">
-                            <img src="${project.imageUrl}" alt="${project.title} Thumbnail" class="w-full h-full object-cover rounded-md" onerror="this.onerror=null;this.src='https://placehold.co/600x350/0f172a/6ee7b7?text=Image+Not+Found';">
+                        <div class="w-full h-52 bg-stone-950 rounded-md mb-5 border border-stone-600 flex items-center justify-center text-stone-400 text-sm">
+                            <img src="${project.imageUrl}" alt="${project.title} Thumbnail" class="w-full h-full object-cover rounded-md" onerror="this.onerror=null;this.src='https://placehold.co/600x350/4a280e/fcd34d?text=Image+Not+Found';">
                         </div>
                         <h3 class="text-2xl font-semibold text-white mb-3">${project.title}</h3>
-                        <div class="text-slate-300 text-base mb-4 space-y-2">
-                            <p><span class="font-semibold text-teal-300">Role:</span> ${project.role}</p>
-                            <p><span class="font-semibold text-teal-300">Engine(s):</span> ${project.engines}</p>
-                            <p><span class="font-semibold text-teal-300">Duration:</span> ${project.duration}</p>
-                            <p><span class="font-semibold text-teal-300">My Contributions:</span></p>
+                        <div class="text-stone-300 text-base mb-4 space-y-2">
+                            <p><span class="font-semibold text-amber-300">Role:</span> ${project.role}</p>
+                            <p><span class="font-semibold text-amber-300">Engine(s):</span> ${project.engines}</p>
+                            <p><span class="font-semibold text-amber-300">Duration:</span> ${project.duration}</p>
+                            <p><span class="font-semibold text-amber-300">My Contributions:</span></p>
                             <ul class="list-disc list-inside pl-4">
                                 ${contributionsList}
                             </ul>
                         </div>
-                        <a href="${project.projectUrl}" target="_blank" class="inline-block bg-teal-600 text-white font-bold px-6 py-3 rounded-md shadow-lg hover:bg-teal-700 hover:shadow-xl transition-all duration-300">View Project</a>
+                        <a href="${project.projectUrl}" target="_blank" class="inline-block bg-amber-600 text-white font-bold px-6 py-3 rounded-md shadow-lg hover:bg-amber-700 hover:shadow-xl transition-all duration-300">View Project</a>
                     `;
                     projectsContainer.appendChild(projectDiv);
                 });
@@ -157,7 +166,7 @@
                     const contactLink = document.createElement('a');
                     contactLink.href = link.url;
                     contactLink.target = "_blank";
-                    contactLink.className = "flex flex-col items-center text-teal-400 hover:text-teal-500 transition-colors duration-300 text-lg group";
+                    contactLink.className = "flex flex-col items-center text-amber-400 hover:text-amber-500 transition-colors duration-300 text-lg group";
                     contactLink.innerHTML = `
                         <svg class="w-10 h-10 mb-2 group-hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="${link.iconPath}"></path></svg>
                         <span class="font-semibold">${link.text}</span>

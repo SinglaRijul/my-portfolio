@@ -2,10 +2,11 @@
   "personalInfo": {
     "name": "Rijul Singla",
     "navBrandName": "SaladCrunchProductions",
-    "tagline": "Crafting immersive worlds and engaging gameplay experiences."
+    "tagline": "Crafting immersive worlds and engaging gameplay experiences.",
+    "profileImageUrl": "images/rijul-profile.jpg"
   },
   "aboutMe": [
-    "Hello! I'm Rijul Singla, a passionate and driven game developer dedicated to crafting engaging interactive experiences. I specialize in Unity Engine development, C++, C#, game design, and level design.",
+    "Hello! I'm Rijul Singla, a passionate and driven game developer dedicated to crafting engaging interactive experiences. I specialize in Unity Engine development, C++, C#, and level design.",
     "My journey into game development began with modding classic games, a path that quickly evolved into a deep dive into engine programming and core game design principles. I thrive on bringing innovative ideas to life, solving complex technical challenges, and collaborating with creative minds.",
     "When I'm not immersed in development, you can find me exploring new game worlds, streaming on YouTube/Twitch, or discovering new music. I am continuously eager to learn and grow, always pushing the boundaries of what's possible in game development."
   ],
@@ -24,11 +25,6 @@
       "name": "Tools & Software",
       "iconPath": "M11.49 3.17c-.38-1.16-1.305-2.09-2.488-2.316-.38-.074-.78-.074-1.16 0-1.183.226-2.108 1.156-2.488 2.316-.38 1.16-.38 2.39 0 3.55 0 .004-.002.008-.002.012a1 1 0 00.627 1.265l4 12a1 1 0 001.265.633l4-12a1 1 0 00.633-1.265l-4-12a1 1 0 00-1.265-.633zM7.003 4.075L4.47 11.003l2.533 6.928 2.533-6.928L7.003 4.075z",
       "items": ["Git/GitHub", "Aseprite", "Visual Studio", "Jira"]
-    },
-    {
-      "name": "Game Design",
-      "iconPath": "M9.243 3.03a1 1 0 011.514 0l4 5a1 1 0 01-1.514 1.29L10 6.414 6.757 9.32a1 1 0 01-1.514-1.29l4-5zM10 13a1 1 0 011-1h2a1 1 0 110 2h-2a1 1 0 01-1-1z",
-      "items": ["Level Design", "System Design", "Prototyping", "Narrative Design", "UI/UX Design"]
     },
     {
       "name": "Other Skills",
