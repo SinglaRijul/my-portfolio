@@ -1,26 +1,24 @@
-/* style.css */
-
 body {
-    font-family: 'Inter', sans-serif; /* Reverted to Inter */
-    background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%); /* Subtle dark gradient */
+    font-family: 'Inter', sans-serif;
+    /* New: Dark blue-green gradient for the background */
+    background: linear-gradient(135deg, #0a1128 0%, #03081e 100%); 
     color: #e2e8f0; /* Light text color */
     scroll-behavior: smooth; /* Smooth scrolling for anchor links */
 }
-
 /* Custom scrollbar for a cleaner look */
 ::-webkit-scrollbar {
     width: 8px;
 }
 ::-webkit-scrollbar-track {
-    background: #2d3748;
+    background: #1e293b; /* Darker track */
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    background: #6b46c1; /* Purple */
+    background: #2dd4bf; /* New: Teal accent color */
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #805ad5; /* Lighter purple on hover */
+    background: #20c9a6; /* New: Slightly darker teal on hover */
 }
 
 /* Animation for sections */
@@ -34,11 +32,17 @@ body {
     transform: translateY(0);
 }
 
-/* Hero text animation (original pulse-fade) */
+/* Animation for hero text */
 @keyframes pulse-fade {
-    0%, 100% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.8; transform: scale(1.02); }
+    0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.8;
+        transform: scale(1.01);
+    }
 }
 .animate-pulse-fade {
-    animation: pulse-fade 2s infinite alternate;
+    animation: pulse-fade 2.5s infinite ease-in-out;
 }
