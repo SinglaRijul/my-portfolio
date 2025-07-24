@@ -1,24 +1,34 @@
 body {
     font-family: 'Inter', sans-serif;
-    /* New: Dark blue-green gradient for the background */
-    background: linear-gradient(135deg, #0a1128 0%, #03081e 100%); 
-    color: #e2e8f0; /* Light text color */
+    /* New: Warm, earthy gradient for the background */
+    background: linear-gradient(135deg, #2c1a0e 0%, #4a280e 100%);
+    background-size: 200% 200%; /* Larger background for animation */
+    animation: gradient-animation 15s ease infinite; /* Smooth, slow animation */
+    color: #f5f5dc; /* Light cream text color */
     scroll-behavior: smooth; /* Smooth scrolling for anchor links */
 }
+
+/* Keyframes for animated background */
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
 /* Custom scrollbar for a cleaner look */
 ::-webkit-scrollbar {
     width: 8px;
 }
 ::-webkit-scrollbar-track {
-    background: #1e293b; /* Darker track */
+    background: #4a280e; /* Darker warm track */
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
-    background: #2dd4bf; /* New: Teal accent color */
+    background: #f59e0b; /* New: Amber accent color */
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover {
-    background: #20c9a6; /* New: Slightly darker teal on hover */
+    background: #e69101; /* New: Slightly darker amber on hover */
 }
 
 /* Animation for sections */
