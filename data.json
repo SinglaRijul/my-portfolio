@@ -3,7 +3,7 @@
     "name": "Rijul Singla",
     "navBrandName": "SaladCrunchProductions",
     "tagline": "Crafting immersive worlds and engaging gameplay experiences.",
-    "profileImageUrl": "images/rijul-profile.jpg"
+    "profileImageUrl": "images/profile.jpg"
   },
   "aboutMe": [
     "Hello! I'm Rijul Singla, a passionate and driven game developer dedicated to crafting engaging interactive experiences. I specialize in Unity Engine development, C++, C#, and level design.",
@@ -91,12 +91,12 @@
     "links": [
       {
         "text": "Email Me",
-        "url": "mailto:your.email@example.com",
+        "url": "saladcrunch.productions@gmail.com",
         "iconPath": "M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884zM18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
       },
       {
         "text": "LinkedIn",
-        "url": "https://linkedin.com/in/yourprofile",
+        "url": "https://www.linkedin.com/in/rijul-singla-b7b0a0203",
         "iconPath": "M16.3 14.7c.3-.3.3-.8 0-1.1l-2.4-2.4c-.3-.3-.8-.3-1.1 0s-.3.8 0 1.1l2.4 2.4c.3.3.8.3 1.1 0zM10 18a8 8 0 100-16 8 8 0 000 16zM8 9a2 2 0 100-4 2 2 0 000 4z"
       },
       {
