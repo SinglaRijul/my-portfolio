@@ -48,7 +48,7 @@
     },
     {
       "title": "Time Strider (Game Jam)",
-      "imageUrl": "images/time-strider.jpg",
+      "imageUrl": "images/time-strider-thumbnail.png",
       "projectUrl": "https://rijul-singla.itch.io/time-strider",
       "role": "Lead Programmer and Game Designer",
       "engines": "Unity",
@@ -74,7 +74,7 @@
     },
     {
       "title": "Shaolin Slice (Game Jam)",
-      "imageUrl": "images/shaolin-slice.jpg",
+      "imageUrl": "images/shaolin-slice-thumbnail.png",
       "projectUrl": "https://rijul-singla.itch.io/shaolin-slice",
       "role": "Lead Programmer and Game Designer",
       "engines": "Unity",
