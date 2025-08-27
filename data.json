@@ -2,8 +2,8 @@
   "personalInfo": {
     "name": "Rijul Singla",
     "navBrandName": "SaladCrunchProductions",
-    "tagline": "Crafting immersive worlds and engaging gameplay experiences.",
-    "profileImageUrl": "images/profile.jpg"
+    "tagline": "Passionate Game Developer ",
+    "profileImageUrl": "images/profile.jfif"
   },
   "aboutMe": [
     "Hello! I'm Rijul Singla, a passionate and driven game developer dedicated to crafting engaging interactive experiences. I specialize in Unity Engine development, C++, C#, and level design.",
@@ -14,7 +14,7 @@
     {
       "name": "Programming Languages",
       "iconPath": "M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 01-1.265.633l-4-12a1 1 0 01.633-1.265l4-12a1 1 0 011.265-.633l4 12zM7.003 4.075L4.47 11.003l2.533 6.928 2.533-6.928L7.003 4.075z",
-      "items": ["C#", "C++", "Python", "JavaScript (Beginner)"]
+      "items": ["C#", "C++", "Python", "JavaScript"]
     },
     {
       "name": "Game Engines",
@@ -61,7 +61,7 @@
     },
     {
       "title": "Pigeon Patrol (Game Jam)",
-      "imageUrl": "images/pigeon-patrol.jpg",
+      "imageUrl": "images/pigeon-patrol-thumbnail.png",
       "projectUrl": "https://sodagummy.itch.io/pigeon-patrol",
       "role": "Lead Programmer and Game Designer",
       "engines": "Unity",
